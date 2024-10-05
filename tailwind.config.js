@@ -2,10 +2,39 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",],
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
-    extend: {},
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
+    extend: {
+      colors:
+      {
+        primary: "#bf612a",
+        secondary: "#8c4e2a",
+        secondary2: "#d98236",
+        blue: {
+          450: "#5f99f7"
+        },
+        black: "#0d0d0d",
+        blac2: "#262626"
+      },
+      fontFamily: {
+        sans: ['Quicksand', 'sans-serif'],
+        // sans: ['Graphik', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+      },
+    },
+    container: {
+      center: true,
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')({ nocompatible: true }),
+  ],
 }
-
