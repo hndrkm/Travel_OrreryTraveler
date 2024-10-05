@@ -21,10 +21,6 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className="pt-10 mt-20">
-                    <Card></Card>
-                </div>
-
         </>
     );
 }
