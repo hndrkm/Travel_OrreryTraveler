@@ -14,7 +14,7 @@ const Card =({
                 <img className=' object-cover mx-auto h-full rounded-lg' src={tierra} alt="" />
             </div>
             <div className="col md:col-span-2 col-span-4 border-2 border-primary bg-blac2 px-3 py-2">
-                <h1 className='text-3xl text-primary mt-2'>{title}</h1>
+                <h1 className='text-3xl text-primary mt-2 underline'>{title}</h1>
                 <h4 className='my-6 text-primary mb-2'>{dataPrimary}</h4>
                 <p className='text-wrap text-secondary text-md sm:text-xl'>{dataSecondary}</p>
             </div>

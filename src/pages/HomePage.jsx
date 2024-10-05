@@ -17,9 +17,8 @@ const HomePage = () => {
                 <div className="pt-10 mt-20 ">
                     <h1 className="text-primary text-2xl sm:text-5xl text-center font-semibold mb-20">Who are we?</h1>
                     <div className="text-center mb-20">
-                        <Boton ruta="/aboutus">Learn more</Boton>
+                        <Boton ruta="/aboutus">About Us</Boton>
                     </div>
-
                 </div>
 
                 <div className="pt-10 mt-20">
