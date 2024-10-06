@@ -21,7 +21,7 @@ const Layout = () => {
                     <img src={miniLogo} alt="logo" className="mt-3"/>
                 </a>
             </div>
-            <div className="relative container ms-24 w-[70%] sm:w-[80%] lg:w-[85%] h-[80vh] px-[8%] mt-24 overflow-auto scrollbar scrollbar-thumb-rounded-full scrollbar-thumb-primary scrollbar-track-transparent scroll-smooth">
+            <div className="relative container ms-24 w-[70%] sm:w-[90%] lg:w-[90%] h-[80vh] px-[8%] mt-24 overflow-auto scrollbar scrollbar-thumb-rounded-full scrollbar-thumb-primary scrollbar-track-transparent scroll-smooth">
                 
                 <Outlet />
             </div>

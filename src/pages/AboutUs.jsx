@@ -13,7 +13,7 @@ const AboutUs = () => {
             <h1>ENTUSIASTAS Y OTRAS COSAS</h1>
           </div>
           <div className="col-span-1 pt-10">
-            <Boton ruta='https://discord.gg/SXRqWqkXnt' >Contactanos ●</Boton>
+            <Boton ruta='https://discord.gg/SXRqWqkXnt' >Contact Us ●</Boton>
           </div>
 
             <div className="col-start-1 border-2 border-secondary">
