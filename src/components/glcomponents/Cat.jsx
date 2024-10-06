@@ -22,7 +22,7 @@ function Cat({ radius = 50, speed = 1.5, ...props }) {
       })
     return (
         <group ref={group}>
-            <LabelText position={[400,120,0]} children={"Informacion"}/>
+            <LabelText link='/learnmore/info' position={[400,120,0]} children={"Informacion"}/>
             <Plane scale={layer.scale} args={[1, 1, 10, 10]} position={[400, 200, 0]} >
                 <meshBasicMaterial transparent map={layer.texture} />
             </Plane>

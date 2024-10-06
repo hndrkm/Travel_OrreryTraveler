@@ -24,7 +24,7 @@ function Anvorguesa({ radius = 20, speed = 1.3, ...props }) {
             <Plane scale={layer.scale} args={[1, 1, 10, 10 ]} position={[0, -50, 0]} >
                 <meshBasicMaterial transparent map={layer.texture}  />
             </Plane>
-            <LabelText position={[0,-300,0]} children={"Nuestro Modelo"}/>
+            <LabelText link='/learnmore/ourmodel' position={[0,-300,0]} children={"Nuestro Modelo"}/>
         </group>
 
     )

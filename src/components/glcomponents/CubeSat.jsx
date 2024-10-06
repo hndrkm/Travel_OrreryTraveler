@@ -25,7 +25,7 @@ function CubeSat({ radius = 50, speed = 1.5, ...props }) {
             <Plane scale={layer.scale} args={[1, 1, 10 , 10 ]} position={[-450, -100, 0]} >
                 <meshBasicMaterial transparent map={layer.texture}  />
             </Plane>
-            <LabelText position={[-400,-150,0]} children={"Modelo Mecanico"}/>
+            <LabelText link='/learnmore/mecanic' position={[-400,-150,0]} children={"Modelo Mecanico"}/>
         </group>
 
     )
