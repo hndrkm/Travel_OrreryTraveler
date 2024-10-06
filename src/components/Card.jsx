@@ -23,24 +23,24 @@ const Card = ({ planet }) => {
             </div>
             <div className="col md:col-span-2 col-span-4 border-2 border-primary bg-blac2 px-3 py-2">
                 <h1 className='text-3xl text-primary mt-2 underline'>{planet.name}</h1>
-                <h4 className='my-6 text-primary text-2xl mb-2'>Orbital Elements</h4>
+                <h4 className='my-6 text-primary text-2xl mb-2'>Elementos Orbitales</h4>
                 <div className="text-primary  text-xl">
-                        SemiAxisMajor:{planet.smA}
+                        Semi eje Mayor:{planet.smA}
                         <br />
-                        Excentricity: {planet.oE}
+                        Excentricidad: {planet.oE}
                         <br />
-                        Inclination: {planet.oI}
+                        Inclinación: {planet.oI}
                         <br />
-                        argument of perihelion: {planet.aP}
+                        Argumentos del perihelio: {planet.aP}
                         <br />
-                        longitude of ascending node: {planet.aN}
+                        Longitud de nodo ascendente: {planet.aN}
                         <br />
-                        average anomaly: {planet.mAe}
+                        Anomalia media: {planet.mAe}
                         <br />
-                        Period: {planet.period}
+                        Periodo: {planet.period}
                 </div>
 
-                <p className='text-wrap text-secondary text-md sm:text-xl'>Distance from Sun: {planet.distanceFromSun}</p>
+                <p className='text-wrap text-secondary text-md sm:text-xl'>Distancia del sol: {planet.distanceFromSun}</p>
             </div>
             <div className="col col-span-4 border-2 border-primary bg-blac2 text-wrap text-secondary2 px-2 py-2">
                 <p>{planet.description}</p>
