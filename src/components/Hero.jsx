@@ -11,7 +11,7 @@ const Hero = () => {
                 <p className="text-secondary2 font-sans text-4xl sm:text-6xl text-center">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;TRAVELER</p>
                 <div className="h-[80%]">1</div>
                 <div className="pt-64 text-center">
-                    <Boton ruta='\'>Iniciar</Boton>
+                    <Boton ruta='\orrery'>Iniciar</Boton>
                 </div>
             </div>
         </div>

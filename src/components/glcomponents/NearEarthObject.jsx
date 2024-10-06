@@ -1,6 +1,6 @@
 import { useFrame } from "@react-three/fiber"
 import { useRef } from 'react'
-import { Propa, trueToEccentricAnomaly, meanToEccentricAnomaly, eccentricToTrueAnomaly } from "../lib/OrbitElements"
+import { Propa, trueToEccentricAnomaly, meanToEccentricAnomaly, eccentricToTrueAnomaly } from "../../lib/OrbitCalculations"
 import { Vector3 } from 'three'
 import LabelObject from './LabelObject';
 

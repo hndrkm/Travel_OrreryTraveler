@@ -1,6 +1,6 @@
 import { Canvas } from '@react-three/fiber'
-import NearEarthObject from './NearEarthObject'
-import Orbit from './Orbit';
+import NearEarthObject from '../components/glcomponents/NearEarthObject'
+import Orbit from '../components/glcomponents/Orbit';
 import { EffectComposer, Bloom } from '@react-three/postprocessing'
 import { Stats, OrbitControls, Environment } from '@react-three/drei'
 import NearObject from '../assets/csvjson'
@@ -11,7 +11,7 @@ function SceneOrrery() {
   ]
 
   return (
-    <div className='h-screen w-screen'>
+    <div className='h-full w-full'>
 
       <Canvas camera={{ fov: 70, position: [0, 0, 3] }}>
         <color attach="background" args={['black']} />

@@ -12,6 +12,7 @@ import LearnMore from './pages/LearnMore';
 import Info from './pages/Info';
 import OurModel from './pages/OurModel';
 import MecanicModel from './pages/MecanicModel';
+import SceneOrrery from './pages/SceneOrrery';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
     <Route path='/learnmore/ourmodel' element={<OurModel/>}/>
     <Route path='/learnmore/mecanic' element={<MecanicModel/>}/>
 
+    <Route path='/orrery' element={<SceneOrrery/>}/>
   </Route>
   )
 );
