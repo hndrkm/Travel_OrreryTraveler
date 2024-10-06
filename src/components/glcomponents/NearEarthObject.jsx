@@ -17,6 +17,7 @@ import LabelObject from './LabelObject';
 **/
 function NearEarthObject(
   { 
+    sim=1,
     name = 'noname',
     smA = 1,
     oE = 0.01671022, 
@@ -31,7 +32,7 @@ function NearEarthObject(
   var position = Propa(smA, oI, aP, oE, aN, 0)
   var currentPosition = [];
   var trueAnomoly = 0;
-  var simSpeed = 1;
+  var simSpeed = sim;
   var deltaTime = 0;
   var time = 0
   var epochMeanAnomaly = mAe * 0.01745329

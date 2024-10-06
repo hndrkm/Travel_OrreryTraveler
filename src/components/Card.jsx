@@ -1,11 +1,25 @@
 //import tierra from '/img/tierra.jpg'
 
-const Card =({planet}) => {
+import PlanetObject from "./glcomponents/PlanetObject";
 
-    return(
+const Card = ({ planet }) => {
+
+    return (
         <div className="container grid grid-cols-4 gap-4">
             <div className=" col md:col-span-2 col-span-4 border-2 border-secondary">
-                <img className=' object-cover mx-auto h-96 rounded-lg' src={planet.picture} alt="" />
+
+                <PlanetObject
+                    pos={planet.pos}
+                    sim={planet.sim}
+                    name={planet.name}
+                    smA={planet.smA}
+                    oE={planet.oE}
+                    oI={planet.oI}
+                    aP={planet.aP}
+                    aN={planet.aN}
+                    mAe={planet.mAe}
+                    period={planet.period}
+                    color={planet.color} />
             </div>
             <div className="col md:col-span-2 col-span-4 border-2 border-primary bg-blac2 px-3 py-2">
                 <h1 className='text-3xl text-primary mt-2 underline'>{planet.name}</h1>
