@@ -69,15 +69,16 @@
             "url_exists": false
         },
         "spaceTexture_url": "https://www.solarsystemscope.com/textures/download/2k_stars.jpg",
+        
         "sim":0.2,
         "pos":2,
-        "smA":0.72333566,
-        "oE":0.00677672, 
-        "oI":3.39467605, 
-        "aP":131.60246718, 
-        "aN":76.67984255,
+        "smA":1.00000261,
+        "oE":0.01671123, 
+        "oI":-0.00001531, 
+        "aP":102.93768193, 
+        "aN":0.0,
         "mAe":0,
-        "period":0.61519726,
+        "period":1.0000174,
         "color":[0.769, 0.643, 0.267]
     },
     {
@@ -96,15 +97,16 @@
             "url_exists": false
         },
         "spaceTexture_url": "https://www.solarsystemscope.com/textures/download/2k_stars.jpg",
+        
         "sim":0.2,
         "pos":2.3,
-        "smA":0.72333566,
-        "oE":0.00677672, 
-        "oI":3.39467605, 
-        "aP":131.60246718, 
-        "aN":76.67984255,
+        "smA":1.52371034,
+        "oE":0.09339410, 
+        "oI":1.84969142, 
+        "aP":-23.94362959, 
+        "aN":49.55953891,
         "mAe":0,
-        "period":0.61519726,
+        "period":1.8808476,
         "color":[0.769, 0.643, 0.267]
     },
     {
@@ -123,15 +125,16 @@
             "url_exists": false
         },
         "spaceTexture_url": "https://www.solarsystemscope.com/textures/download/2k_stars.jpg",
+        
         "sim":0.2,
-        "pos":10,
-        "smA":0.72333566,
-        "oE":0.00677672, 
-        "oI":3.39467605, 
-        "aP":131.60246718, 
-        "aN":76.67984255,
+        "pos":6,
+        "smA":5.20288700,
+        "oE":0.04838624, 
+        "oI":1.30439695, 
+        "aP":14.72847983, 
+        "aN":100.47390909,
         "mAe":0,
-        "period":0.61519726,
+        "period":1.8808476,
         "color":[0.769, 0.643, 0.267]
     },
     {
@@ -151,15 +154,16 @@
             "url": "https://www.solarsystemscope.com/textures/download/2k_saturn_ring_alpha.png"
         },
         "spaceTexture_url": "https://www.solarsystemscope.com/textures/download/2k_stars.jpg",
+        
         "sim":0.2,
-        "pos":1,
-        "smA":0.72333566,
-        "oE":0.00677672, 
-        "oI":3.39467605, 
-        "aP":131.60246718, 
-        "aN":76.67984255,
+        "pos":10,
+        "smA":9.53667594,
+        "oE":0.05386179, 
+        "oI":2.48599187, 
+        "aP":92.59887831, 
+        "aN":113.66242448,
         "mAe":0,
-        "period":0.61519726,
+        "period":1.8808476,
         "color":[0.769, 0.643, 0.267]
     },
     {
@@ -178,15 +182,16 @@
             "url_exists": false
         },
         "spaceTexture_url": "https://www.solarsystemscope.com/textures/download/2k_stars.jpg",
+        
         "sim":0.2,
-        "pos":1,
-        "smA":0.72333566,
-        "oE":0.00677672, 
-        "oI":3.39467605, 
-        "aP":131.60246718, 
-        "aN":76.67984255,
+        "pos":20,
+        "smA":19.18916464,
+        "oE":0.04725744, 
+        "oI":0.77263783, 
+        "aP":170.95427630, 
+        "aN":74.01692503,
         "mAe":0,
-        "period":0.61519726,
+        "period":1.8808476,
         "color":[0.769, 0.643, 0.267]
     },
     {
@@ -205,15 +210,16 @@
             "url_exists": false
         },
         "spaceTexture_url": "https://www.solarsystemscope.com/textures/download/2k_stars.jpg",
+        
         "sim":0.2,
-        "pos":1,
-        "smA":0.72333566,
-        "oE":0.00677672, 
-        "oI":3.39467605, 
-        "aP":131.60246718, 
-        "aN":76.67984255,
+        "pos":30,
+        "smA":30.06992276,
+        "oE":0.00859048, 
+        "oI":1.77004347, 
+        "aP":44.96476227, 
+        "aN":131.78422574,
         "mAe":0,
-        "period":0.61519726,
+        "period":1.8808476,
         "color":[0.769, 0.643, 0.267]
     }
 ]
