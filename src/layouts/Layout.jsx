@@ -8,7 +8,7 @@ const Layout = () => {
             <div className="fixed top-5 left-5 h-14 w-[96%] border-primary bg-black border-2 grid grid-cols-2">
                 <a href="/" className="-mt-1 ms-20 ps-10 pt-3 text-primary font-medium ms:text-xl text-3xl ">ORRERY TRAVELER!</a>
                 <div className="text-right pt-2.5">
-                        <Boton ruta="/learnmore" bg="bg-black text-primary border-2 border-primary hover:bg-balc2">Learn more</Boton>
+                        <Boton ruta="/learnmore" bg="bg-primary text-black border-2 border-primary hover:bg-balc2">Learn more</Boton>
                     </div>
             </div>
             <div className="fixed top-5 left-5 border-secondary2  border-2 py-4 h-[96%] w-14">
