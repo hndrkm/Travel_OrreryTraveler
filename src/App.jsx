@@ -16,7 +16,7 @@ import SceneOrrery from './pages/SceneOrrery';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-  <Route path='/' element={<Layout />}>
+  [<Route path='/' element={<Layout />}>
     <Route index element={<HomePage/>}/>
     <Route path='/aboutus' element={<AboutUs/>}/>
     <Route path='/learnmore' element={<LearnMore/>}/>
@@ -24,8 +24,8 @@ const router = createBrowserRouter(
     <Route path='/learnmore/ourmodel' element={<OurModel/>}/>
     <Route path='/learnmore/mecanic' element={<MecanicModel/>}/>
 
-    <Route path='/orrery' element={<SceneOrrery/>}/>
-  </Route>
+  </Route>,
+  <Route path='/orrery' element={<SceneOrrery/>}/>]
   )
 );
 

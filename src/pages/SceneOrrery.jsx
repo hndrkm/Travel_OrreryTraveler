@@ -11,7 +11,7 @@ function SceneOrrery() {
   ]
 
   return (
-    <div className='h-full w-full'>
+    <div className='h-screen w-screen'>
 
       <Canvas camera={{ fov: 70, position: [0, 0, 3] }}>
         <color attach="background" args={['black']} />
