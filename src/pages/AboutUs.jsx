@@ -1,6 +1,6 @@
 import Boton from "../components/Boton"
 
-import img1 from '/img/aboutUs/img1.png'
+import img1 from '/img/aboutUs/team1.jpeg'
 import img2 from '/img/aboutUs/img2.png'
 
 const AboutUs = () => {
@@ -39,40 +39,40 @@ const AboutUs = () => {
             </div>
 
             <div className="border-2 border-primary text-primary text-2xl grid-rows-3">
-            <div className="text-primary">12312</div>
-              <div className="text-primary">Integrantes del Team</div>
-              <div className="text-primary">123</div>
+            <div className="text-primary">&emsp;</div>
+              <div className="text-black bg-primary text-center">Integrantes del Team</div>
+              <div className="text-primary">&emsp;</div>
             </div>
             <div className="border-2 border-primary grid-rows-3">
               <div className="text-primary text-6xl ms-2 mt-2">01</div>
-              <div className="text-primary text-center">123</div>
+              <div className="text-primary text-center"></div>
               <div className="text-primary ms-2 text-4xl">DAMARIS D.
                 <br />
-                S.A.
+                SARMIENTO. A.
               </div>
             </div>
             <div className="border-2 border-primary grid-rows-3">
               <div className="text-primary text-6xl ms-2 mt-2">02</div>
-              <div className="text-primary text-center">123</div>
-              <div className="text-primary ms-2 text-4xl">DAMARIS D.
+              <div className="text-primary text-center"></div>
+              <div className="text-primary ms-2 text-4xl">C. GABRIEL
                 <br />
-                S.A.
+                CUEVAS. C.
               </div>
             </div>
             <div className="border-2 border-primary grid-rows-3">
               <div className="text-primary text-6xl ms-2 mt-2">03</div>
-              <div className="text-primary text-center">123</div>
-              <div className="text-primary ms-2 text-4xl">DAMARIS D.
+              <div className="text-primary text-center"></div>
+              <div className="text-primary ms-2 text-4xl">CRISTHIAN L.
                 <br />
-                S.A.
+                ESTEBAN. M.
               </div>
             </div>
             <div className="border-2 border-primary grid-rows-3">
               <div className="text-primary text-6xl ms-2 mt-2">04</div>
-              <div className="text-primary text-center">123</div>
-              <div className="text-primary ms-2 text-4xl">DAMARIS D.
+              <div className="text-primary text-center"></div>
+              <div className="text-primary ms-2 text-4xl">HENDRIK M.
                 <br />
-                S.A.
+                RAMOS. S.
               </div>
             </div>
             <div className="border-2 border-primary"></div>
