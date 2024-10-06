@@ -17,7 +17,7 @@ function SceneOrrery() {
 
   return (
     <>
-      <div className='h-full w-full'>
+    <div className='h-screen w-screen'>
 
         <Canvas camera={{ fov: 70, position: [0, 0, 3] }}>
           <color attach="background" args={['black']} />
@@ -113,12 +113,10 @@ function SceneOrrery() {
 
 
       </div>
-      <div className='flex'>
-        <div className="top-5  h-14 w-full border-primary bg-black border-2 grid grid-cols-2">
-          <h1 className="mx-2 pt-3 text-primary font-medium ms:text-3xl text-xl ">ORRERY TRAVELER!</h1>
-          <div className="text-right pt-2.5">
-
-          </div>
+      <div className='flex-no-wrap fixed bottom-0 flex w-full p-5'>
+        <div className="pb-10  h-16 w-full border-secondary2 bg-blac2 border-4 grid grid-cols-2">
+          <h1 className="mx-2 pt-3 text-primary font-medium ms:text-3xl text-xl ">Controles</h1>
+          
         </div>
       </div>
     </>

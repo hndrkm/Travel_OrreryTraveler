@@ -1,7 +1,7 @@
-const Boton =({children, ruta='/'}) => {
+const Boton =({children, ruta='/', bg='bg-primary text-black2 rounded-full' }) => {
     return(
         <div className="container sm:px-20">
-            <a href={ruta} className="bg-primary text-black2 text-xl sm:text-2xl px-8 py-2 rounded-full hover:bg-secondary font-semibold" >
+            <a href={ruta} className={`${bg} text-xl sm:text-2xl px-8 py-2 hover:bg-secondary font-semibold`} >
                 {children}
             </a>
         </div>
